@@ -1,0 +1,17 @@
+Table name,Column name,Description
+customer,id,Unique id for each customer registered
+customer,city,City of the customer
+customer,email,Email domain used
+customer,gender,Customer gender
+product,id,Unique id for each product registered
+product,price,Price for each product
+store,id,Unique id for each store registered
+store,type,Store type
+transaction,id,Id of each transaction occurred
+transaction,store_id,Foreign key to store table
+transaction,customer_id,Foreign key to customer table
+transaction,product_id,Foreign key to product table
+transaction,quantity,Number of product purchased
+transaction,promo_id,foreign key to promo table
+transaction,total,Total nominal the customer should pay
+transaction,created_at,Timestamp when the transaction occurred
